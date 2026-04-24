@@ -88,7 +88,6 @@ vercel --prod
 
 ## Project Structure
 
-\```
 inspomap/
 ├── api/
 │   ├── vibe-search.js      # Vibe search endpoint
@@ -103,7 +102,6 @@ inspomap/
 │   └── main.jsx
 ├── index.html
 └── vercel.json
-\```
 
 ## Built at
 
