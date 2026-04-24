@@ -88,20 +88,16 @@ vercel --prod
 
 ## Project Structure
 
-inspomap/
-├── api/
-│   ├── vibe-search.js      # Vibe search endpoint
-│   └── vibe-journey.js     # Journey planning endpoint
-├── src/
-│   ├── pages/
-│   │   ├── Discover.jsx    # Main discovery + map
-│   │   ├── Saved.jsx       # Memory journal + Explorer
-│   │   ├── Community.jsx   # Trending + community spots
-│   │   └── Profile.jsx     # User profile + vibe passport
-│   ├── App.jsx
-│   └── main.jsx
-├── index.html
-└── vercel.json
+- **api/**
+  - `vibe-search.js` → Vibe search endpoint
+  - `vibe-journey.js` → Journey planning endpoint
+- **src/pages/**
+  - `Discover.jsx` → Main discovery + map
+  - `Saved.jsx` → Memory journal + Explorer
+  - `Community.jsx` → Trending + community spots
+  - `Profile.jsx` → User profile + vibe passport
+- `index.html`
+- `vercel.json`
 
 ## Built at
 
